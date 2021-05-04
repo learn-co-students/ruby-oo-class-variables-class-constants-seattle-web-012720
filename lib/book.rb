@@ -19,3 +19,9 @@ class Book
 
 end
 
+book1 = Book.new("A viagem dos que nao foram.")
+book1.genre = "Classic"
+puts book1.genre
+puts book1
+puts GENRES
+
